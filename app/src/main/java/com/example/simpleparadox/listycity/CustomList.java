@@ -44,7 +44,7 @@ public class CustomList extends ArrayAdapter<City> {
      * has city in list
      */
     public Boolean hasCity() {
-        return false;
+        return !cities.isEmpty();
     }
 
     @NonNull
