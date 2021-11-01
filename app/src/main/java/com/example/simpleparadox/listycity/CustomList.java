@@ -37,7 +37,7 @@ public class CustomList extends ArrayAdapter<City> {
      * add city to list
      */
     public void addCity(City city) {
-
+        cities.add(city);
     }
 
     @NonNull
