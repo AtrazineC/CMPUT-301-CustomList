@@ -30,7 +30,7 @@ public class CustomList extends ArrayAdapter<City> {
      */
     @Override
     public int getCount() {
-        return 0;
+        return cities.size();
     }
 
     /**
