@@ -47,6 +47,13 @@ public class CustomList extends ArrayAdapter<City> {
         return !cities.isEmpty();
     }
 
+    /**
+     * delete city in list
+     */
+    public void deleteCity() {
+
+    }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
